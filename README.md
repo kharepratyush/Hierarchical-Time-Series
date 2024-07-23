@@ -59,10 +59,7 @@ Data loading and preprocessing are handled in src/preprocess.py.
 Feature engineering is performed in src/feature_engineering.py to create various lag, rolling, and date features.
 
 ### Model Training
-Models are defined and trained in src/model.py, including ARIMA, Prophet, XGBoost, and LightGBM.
-
-### Hyperparameter Tuning
-Hyperparameter tuning for XGBoost and LightGBM is performed using Optuna in src/hyperparameter_tuning.py.
+Models are defined and trained in src/model.py, including ARIMA, ETS, XGBoost, and LightGBM.
 
 ### Forecasting
 Forecasts are generated in src/model.py and reconciled in src/reconciliation.py.
