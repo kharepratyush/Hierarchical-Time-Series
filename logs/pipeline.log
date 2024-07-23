@@ -1,0 +1,96 @@
+2024-07-23 02:03:56 - INFO - Logging is set up.
+2024-07-23 02:03:56 - INFO - Directory data/raw already exists.
+2024-07-23 02:03:56 - INFO - Directory data/processed already exists.
+2024-07-23 02:03:56 - INFO - Directory models already exists.
+2024-07-23 02:03:56 - INFO - Directory notebooks already exists.
+2024-07-23 02:03:56 - INFO - Directory tests already exists.
+2024-07-23 02:03:56 - INFO - Directory logs already exists.
+2024-07-23 02:03:56 - INFO - Directory data/output already exists.
+2024-07-23 02:03:56 - INFO - Configuration loaded successfully
+2024-07-23 02:03:56 - INFO - Raw dataframe loaded successfully
+2024-07-23 02:03:56 - INFO - Processed dataframe saved successfully
+2024-07-23 02:03:56 - INFO - Train & Test dataset split and saved successfully
+2024-07-23 02:03:57 - INFO - Feature engineered datasets saved successfully
+2024-07-23 02:03:57 - INFO - --------------------------------------------------
+2024-07-23 02:15:02 - INFO - LightGBM Group Name: total, RMSE: 7115.336436253354
+2024-07-23 02:15:06 - INFO - AutoARIMA Group Name: total, RMSE: 27634.416358444018
+2024-07-23 02:22:49 - INFO - XGBoost Group Name: total, RMSE: 7074.735281074802
+2024-07-23 02:22:57 - INFO - AutoETS Group Name: total, RMSE: 24293.989122152976
+2024-07-23 02:22:57 - INFO - Best Model Group Name: total, RMSE: 7074.735281074802, Model Type: XGBoost
+2024-07-23 02:22:57 - INFO - --------------------------------------------------
+2024-07-23 02:30:39 - INFO - LightGBM Group Name: total/State 1, RMSE: 3200.777627243329
+2024-07-23 02:30:39 - INFO - AutoARIMA Group Name: total/State 1, RMSE: 8809.370678992751
+2024-07-23 02:36:21 - INFO - XGBoost Group Name: total/State 1, RMSE: 3181.280628691303
+2024-07-23 02:36:21 - INFO - AutoETS Group Name: total/State 1, RMSE: 8219.200343628356
+2024-07-23 02:36:21 - INFO - Best Model Group Name: total/State 1, RMSE: 3181.280628691303, Model Type: XGBoost
+2024-07-23 02:36:21 - INFO - --------------------------------------------------
+2024-07-23 02:42:44 - INFO - LightGBM Group Name: total/State 1/Zone P, RMSE: 1570.0109489927918
+2024-07-23 02:42:45 - INFO - AutoARIMA Group Name: total/State 1/Zone P, RMSE: 3249.9065890371903
+2024-07-23 02:47:23 - INFO - XGBoost Group Name: total/State 1/Zone P, RMSE: 1552.3871828152005
+2024-07-23 02:47:23 - INFO - AutoETS Group Name: total/State 1/Zone P, RMSE: 3005.000032836148
+2024-07-23 02:47:23 - INFO - Best Model Group Name: total/State 1/Zone P, RMSE: 1552.3871828152005, Model Type: XGBoost
+2024-07-23 02:47:23 - INFO - --------------------------------------------------
+2024-07-23 02:53:30 - INFO - LightGBM Group Name: total/State 1/Zone Q, RMSE: 1577.47914471022
+2024-07-23 02:53:30 - INFO - AutoARIMA Group Name: total/State 1/Zone Q, RMSE: 3246.717009973615
+2024-07-23 02:57:41 - INFO - XGBoost Group Name: total/State 1/Zone Q, RMSE: 1587.5167582643703
+2024-07-23 02:57:41 - INFO - AutoETS Group Name: total/State 1/Zone Q, RMSE: 3089.4643063918093
+2024-07-23 02:57:41 - INFO - Best Model Group Name: total/State 1/Zone Q, RMSE: 1577.47914471022, Model Type: LightGBM
+2024-07-23 02:57:41 - INFO - --------------------------------------------------
+2024-07-23 03:04:00 - INFO - LightGBM Group Name: total/State 1/Zone R, RMSE: 1599.251272214319
+2024-07-23 03:04:00 - INFO - AutoARIMA Group Name: total/State 1/Zone R, RMSE: 2994.4114720834577
+2024-07-23 03:08:38 - INFO - XGBoost Group Name: total/State 1/Zone R, RMSE: 1911.1875555993336
+2024-07-23 03:08:38 - INFO - AutoETS Group Name: total/State 1/Zone R, RMSE: 2818.5983621786354
+2024-07-23 03:08:38 - INFO - Best Model Group Name: total/State 1/Zone R, RMSE: 1599.251272214319, Model Type: LightGBM
+2024-07-23 03:08:38 - INFO - --------------------------------------------------
+2024-07-23 03:16:46 - INFO - LightGBM Group Name: total/State 2, RMSE: 4942.789369991851
+2024-07-23 03:16:46 - INFO - AutoARIMA Group Name: total/State 2, RMSE: 12825.381681414689
+2024-07-23 03:23:21 - INFO - XGBoost Group Name: total/State 2, RMSE: 4960.326340305515
+2024-07-23 03:23:21 - INFO - AutoETS Group Name: total/State 2, RMSE: 11906.842667521083
+2024-07-23 03:23:21 - INFO - Best Model Group Name: total/State 2, RMSE: 4942.789369991851, Model Type: LightGBM
+2024-07-23 03:23:21 - INFO - --------------------------------------------------
+2024-07-23 03:29:46 - INFO - LightGBM Group Name: total/State 2/Zone P, RMSE: 2358.337696509925
+2024-07-23 03:29:47 - INFO - AutoARIMA Group Name: total/State 2/Zone P, RMSE: 4697.4499762377145
+2024-07-23 03:34:32 - INFO - XGBoost Group Name: total/State 2/Zone P, RMSE: 2341.205050138435
+2024-07-23 03:34:32 - INFO - AutoETS Group Name: total/State 2/Zone P, RMSE: 4423.192551181164
+2024-07-23 03:34:32 - INFO - Best Model Group Name: total/State 2/Zone P, RMSE: 2341.205050138435, Model Type: XGBoost
+2024-07-23 03:34:32 - INFO - --------------------------------------------------
+2024-07-23 03:41:39 - INFO - LightGBM Group Name: total/State 2/Zone Q, RMSE: 2366.8927553833178
+2024-07-23 03:41:39 - INFO - AutoARIMA Group Name: total/State 2/Zone Q, RMSE: 8213.423327241371
+2024-07-23 03:46:47 - INFO - XGBoost Group Name: total/State 2/Zone Q, RMSE: 2408.5167839200085
+2024-07-23 03:46:47 - INFO - AutoETS Group Name: total/State 2/Zone Q, RMSE: 4381.745852755124
+2024-07-23 03:46:47 - INFO - Best Model Group Name: total/State 2/Zone Q, RMSE: 2366.8927553833178, Model Type: LightGBM
+2024-07-23 03:46:47 - INFO - --------------------------------------------------
+2024-07-23 03:52:13 - INFO - LightGBM Group Name: total/State 2/Zone R, RMSE: 2388.1744501154158
+2024-07-23 03:52:13 - INFO - AutoARIMA Group Name: total/State 2/Zone R, RMSE: 7802.769662359995
+2024-07-23 03:56:56 - INFO - XGBoost Group Name: total/State 2/Zone R, RMSE: 2382.944913442746
+2024-07-23 03:56:56 - INFO - AutoETS Group Name: total/State 2/Zone R, RMSE: 4097.219956165342
+2024-07-23 03:56:56 - INFO - Best Model Group Name: total/State 2/Zone R, RMSE: 2382.944913442746, Model Type: XGBoost
+2024-07-23 03:56:56 - INFO - --------------------------------------------------
+2024-07-23 04:05:23 - INFO - LightGBM Group Name: total/State 3, RMSE: 2708.303056545619
+2024-07-23 04:05:23 - INFO - AutoARIMA Group Name: total/State 3, RMSE: 7004.886549573921
+2024-07-23 04:13:54 - INFO - XGBoost Group Name: total/State 3, RMSE: 2714.4851180663045
+2024-07-23 04:13:54 - INFO - AutoETS Group Name: total/State 3, RMSE: 6403.891945898112
+2024-07-23 04:13:54 - INFO - Best Model Group Name: total/State 3, RMSE: 2708.303056545619, Model Type: LightGBM
+2024-07-23 04:13:54 - INFO - --------------------------------------------------
+2024-07-23 04:21:14 - INFO - LightGBM Group Name: total/State 3/Zone P, RMSE: 1348.4645518854322
+2024-07-23 04:21:14 - INFO - AutoARIMA Group Name: total/State 3/Zone P, RMSE: 2667.7279456267634
+2024-07-23 04:26:43 - INFO - XGBoost Group Name: total/State 3/Zone P, RMSE: 1329.3259265853221
+2024-07-23 04:26:43 - INFO - AutoETS Group Name: total/State 3/Zone P, RMSE: 2501.8560062789334
+2024-07-23 04:26:43 - INFO - Best Model Group Name: total/State 3/Zone P, RMSE: 1329.3259265853221, Model Type: XGBoost
+2024-07-23 04:26:43 - INFO - --------------------------------------------------
+2024-07-23 04:33:45 - INFO - LightGBM Group Name: total/State 3/Zone Q, RMSE: 1246.4470265180055
+2024-07-23 04:33:45 - INFO - AutoARIMA Group Name: total/State 3/Zone Q, RMSE: 2613.9185006740972
+2024-07-23 04:38:31 - INFO - XGBoost Group Name: total/State 3/Zone Q, RMSE: 1410.006867079709
+2024-07-23 04:38:31 - INFO - AutoETS Group Name: total/State 3/Zone Q, RMSE: 2445.563019108727
+2024-07-23 04:38:31 - INFO - Best Model Group Name: total/State 3/Zone Q, RMSE: 1246.4470265180055, Model Type: LightGBM
+2024-07-23 04:38:31 - INFO - --------------------------------------------------
+2024-07-23 04:44:48 - INFO - LightGBM Group Name: total/State 3/Zone R, RMSE: 1309.4934878346035
+2024-07-23 04:44:49 - INFO - AutoARIMA Group Name: total/State 3/Zone R, RMSE: 2381.951707185223
+2024-07-23 04:49:40 - INFO - XGBoost Group Name: total/State 3/Zone R, RMSE: 1361.4416516030615
+2024-07-23 04:49:40 - INFO - AutoETS Group Name: total/State 3/Zone R, RMSE: 2190.3825441751933
+2024-07-23 04:49:40 - INFO - Best Model Group Name: total/State 3/Zone R, RMSE: 1309.4934878346035, Model Type: LightGBM
+2024-07-23 04:49:40 - INFO - Model training completed successfully!
+2024-07-23 04:49:40 - INFO - Model Forecasting completed successfully!
+2024-07-23 04:49:40 - INFO - Output Reconciliation completed successfully!
+2024-07-23 04:49:40 - INFO - Evaluation results completed successfully!
+2024-07-23 04:49:40 - INFO - Evaluation Results: Forecast RMSE = 2731.5508882781073, Reconciled RMSE = 2612.915467731044

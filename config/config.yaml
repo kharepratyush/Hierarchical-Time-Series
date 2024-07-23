@@ -1,0 +1,15 @@
+forecast:
+  steps: 12
+  test_size: 0.2
+  hyperparameter_trials: 50
+
+raw_data_path: "data/raw/fmcg_data.csv"
+holidays: "data/raw/holiday.csv"
+processed_data_path: "data/processed/processed_data.csv"
+train_path: "data/processed/train.csv"
+test_path: "data/processed/test.csv"
+feature_engineered_train_path: "data/processed/feature_engineered_train.csv"
+feature_engineered_test_path: "data/processed/feature_engineered_test.csv"
+model_path: "models/model.pkl"
+output_prediction_path: "data/output/forecast.csv"
+output_reconciliation_path: "data/output/reconciled_forecast.csv"
